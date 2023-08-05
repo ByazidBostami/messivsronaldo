@@ -1,0 +1,84 @@
+@font-face{
+    src: url(../fonts/Kalpana\ ANSI.ttf);
+    font-family: "Kalpana";
+}
+#header h2 {
+    font-family: "Kalpana";
+}
+/*#header{
+    color: green;
+    text-align: center;
+    background: #E8E9F0;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    margin-bottom: 80px;
+}*/
+/* #=call individual id*/
+/*div.player-info{
+    background: #E8E9F0;
+
+}*/
+/*. use for call class*/
+/*body{
+    background-image: url(../Images/Messi.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+}*/
+.player-info {
+    border: 1px solid black;
+    padding: 15px;
+    height: 200px;
+    overflow: scroll;
+    background-color: rgb(43,79,106);
+    color: white;
+    border-radius:0px 10px 10px 10px; /*rounded box*/
+    transition: all 500ms;
+}
+.player-info1 {
+    border: 1px solid black;
+    padding: 15px;
+    height: 200px;
+    overflow: scroll;
+    background-color: rgb(43,79,106);
+    color: white;
+    border-radius:0px 10px 10px 10px; /*rounded box*/
+    transition: all 500ms;
+}
+.player-info:hover{
+    background-color: rgba(43, 79, 106, .7);
+    border-radius: 0px 15px 15px 15px ;
+}
+/* .player-info :hover{
+    opacity: 0.6;
+}*/
+/*#ronaldo,#voting-from{
+    margin-top: 60px;
+}*/
+img{
+    width: 200px;
+    height: auto;
+}
+#messi img:hover,#ronaldo img:hover{
+    transform: scale(1.5);
+    transition: all 500ms;
+}
+/* p for call all paragraph #header p for call individual divition paragraph*/
+#header ~ div{
+    margin-top: 80px;
+}
+a:link{
+    color: rgb(233, 226, 226);
+}/*genarel color link*/
+a:visited{
+    color: rgb(81, 226, 81);
+}/*visited link */
+a:hover{
+    color: rgb(229, 220, 220);
+}/* when you scroll on with your mouch it will be change the color */
+p {
+    font-family: 'Roboto Slab',serif;
+}
+#messi h3,#ronaldo h3 {
+    text-shadow: 2px 2px 5px #888;
+
+}
